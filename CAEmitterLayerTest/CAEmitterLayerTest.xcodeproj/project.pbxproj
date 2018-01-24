@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04551B3D200CA40300108513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04551B3C200CA40300108513 /* AppDelegate.swift */; };
+		04551B3F200CA40300108513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04551B3E200CA40300108513 /* ViewController.swift */; };
+		04551B42200CA40300108513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04551B40200CA40300108513 /* Main.storyboard */; };
+		04551B44200CA40300108513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04551B43200CA40300108513 /* Assets.xcassets */; };
+		04551B47200CA40300108513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04551B45200CA40300108513 /* LaunchScreen.storyboard */; };
+		04551B52200CA40400108513 /* CAEmitterLayerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04551B51200CA40400108513 /* CAEmitterLayerTestTests.swift */; };
+		04551B5D200CA40400108513 /* CAEmitterLayerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04551B5C200CA40400108513 /* CAEmitterLayerTestUITests.swift */; };
+		04551B6B200CA79400108513 /* emtter.png in Resources */ = {isa = PBXBuildFile; fileRef = 04551B6A200CA79400108513 /* emtter.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04551B4E200CA40400108513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04551B31200CA40300108513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04551B38200CA40300108513;
+			remoteInfo = CAEmitterLayerTest;
+		};
+		04551B59200CA40400108513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04551B31200CA40300108513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04551B38200CA40300108513;
+			remoteInfo = CAEmitterLayerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04551B39200CA40300108513 /* CAEmitterLayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAEmitterLayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04551B3C200CA40300108513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04551B3E200CA40300108513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04551B41200CA40300108513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04551B43200CA40300108513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04551B46200CA40300108513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04551B48200CA40300108513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04551B4D200CA40400108513 /* CAEmitterLayerTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04551B51200CA40400108513 /* CAEmitterLayerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAEmitterLayerTestTests.swift; sourceTree = "<group>"; };
+		04551B53200CA40400108513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04551B58200CA40400108513 /* CAEmitterLayerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAEmitterLayerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04551B5C200CA40400108513 /* CAEmitterLayerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAEmitterLayerTestUITests.swift; sourceTree = "<group>"; };
+		04551B5E200CA40400108513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04551B6A200CA79400108513 /* emtter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emtter.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04551B36200CA40300108513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04551B4A200CA40400108513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04551B55200CA40400108513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04551B30200CA40300108513 = {
+			isa = PBXGroup;
+			children = (
+				04551B3B200CA40300108513 /* CAEmitterLayerTest */,
+				04551B50200CA40400108513 /* CAEmitterLayerTestTests */,
+				04551B5B200CA40400108513 /* CAEmitterLayerTestUITests */,
+				04551B3A200CA40300108513 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04551B3A200CA40300108513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04551B39200CA40300108513 /* CAEmitterLayerTest.app */,
+				04551B4D200CA40400108513 /* CAEmitterLayerTestTests.xctest */,
+				04551B58200CA40400108513 /* CAEmitterLayerTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04551B3B200CA40300108513 /* CAEmitterLayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				04551B3C200CA40300108513 /* AppDelegate.swift */,
+				04551B3E200CA40300108513 /* ViewController.swift */,
+				04551B6A200CA79400108513 /* emtter.png */,
+				04551B40200CA40300108513 /* Main.storyboard */,
+				04551B43200CA40300108513 /* Assets.xcassets */,
+				04551B45200CA40300108513 /* LaunchScreen.storyboard */,
+				04551B48200CA40300108513 /* Info.plist */,
+			);
+			path = CAEmitterLayerTest;
+			sourceTree = "<group>";
+		};
+		04551B50200CA40400108513 /* CAEmitterLayerTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				04551B51200CA40400108513 /* CAEmitterLayerTestTests.swift */,
+				04551B53200CA40400108513 /* Info.plist */,
+			);
+			path = CAEmitterLayerTestTests;
+			sourceTree = "<group>";
+		};
+		04551B5B200CA40400108513 /* CAEmitterLayerTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04551B5C200CA40400108513 /* CAEmitterLayerTestUITests.swift */,
+				04551B5E200CA40400108513 /* Info.plist */,
+			);
+			path = CAEmitterLayerTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04551B38200CA40300108513 /* CAEmitterLayerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04551B61200CA40400108513 /* Build configuration list for PBXNativeTarget "CAEmitterLayerTest" */;
+			buildPhases = (
+				04551B35200CA40300108513 /* Sources */,
+				04551B36200CA40300108513 /* Frameworks */,
+				04551B37200CA40300108513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAEmitterLayerTest;
+			productName = CAEmitterLayerTest;
+			productReference = 04551B39200CA40300108513 /* CAEmitterLayerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04551B4C200CA40400108513 /* CAEmitterLayerTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04551B64200CA40400108513 /* Build configuration list for PBXNativeTarget "CAEmitterLayerTestTests" */;
+			buildPhases = (
+				04551B49200CA40400108513 /* Sources */,
+				04551B4A200CA40400108513 /* Frameworks */,
+				04551B4B200CA40400108513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04551B4F200CA40400108513 /* PBXTargetDependency */,
+			);
+			name = CAEmitterLayerTestTests;
+			productName = CAEmitterLayerTestTests;
+			productReference = 04551B4D200CA40400108513 /* CAEmitterLayerTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04551B57200CA40400108513 /* CAEmitterLayerTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04551B67200CA40400108513 /* Build configuration list for PBXNativeTarget "CAEmitterLayerTestUITests" */;
+			buildPhases = (
+				04551B54200CA40400108513 /* Sources */,
+				04551B55200CA40400108513 /* Frameworks */,
+				04551B56200CA40400108513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04551B5A200CA40400108513 /* PBXTargetDependency */,
+			);
+			name = CAEmitterLayerTestUITests;
+			productName = CAEmitterLayerTestUITests;
+			productReference = 04551B58200CA40400108513 /* CAEmitterLayerTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04551B31200CA40300108513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = BerryBit;
+				TargetAttributes = {
+					04551B38200CA40300108513 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					04551B4C200CA40400108513 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04551B38200CA40300108513;
+					};
+					04551B57200CA40400108513 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04551B38200CA40300108513;
+					};
+				};
+			};
+			buildConfigurationList = 04551B34200CA40300108513 /* Build configuration list for PBXProject "CAEmitterLayerTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04551B30200CA40300108513;
+			productRefGroup = 04551B3A200CA40300108513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04551B38200CA40300108513 /* CAEmitterLayerTest */,
+				04551B4C200CA40400108513 /* CAEmitterLayerTestTests */,
+				04551B57200CA40400108513 /* CAEmitterLayerTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04551B37200CA40300108513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04551B47200CA40300108513 /* LaunchScreen.storyboard in Resources */,
+				04551B44200CA40300108513 /* Assets.xcassets in Resources */,
+				04551B6B200CA79400108513 /* emtter.png in Resources */,
+				04551B42200CA40300108513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04551B4B200CA40400108513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04551B56200CA40400108513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04551B35200CA40300108513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04551B3F200CA40300108513 /* ViewController.swift in Sources */,
+				04551B3D200CA40300108513 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04551B49200CA40400108513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04551B52200CA40400108513 /* CAEmitterLayerTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04551B54200CA40400108513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04551B5D200CA40400108513 /* CAEmitterLayerTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04551B4F200CA40400108513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04551B38200CA40300108513 /* CAEmitterLayerTest */;
+			targetProxy = 04551B4E200CA40400108513 /* PBXContainerItemProxy */;
+		};
+		04551B5A200CA40400108513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04551B38200CA40300108513 /* CAEmitterLayerTest */;
+			targetProxy = 04551B59200CA40400108513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04551B40200CA40300108513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04551B41200CA40300108513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04551B45200CA40300108513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04551B46200CA40300108513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04551B5F200CA40400108513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04551B60200CA40400108513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04551B62200CA40400108513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2UQA5T58;
+				INFOPLIST_FILE = CAEmitterLayerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BerryBit.CAEmitterLayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04551B63200CA40400108513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2UQA5T58;
+				INFOPLIST_FILE = CAEmitterLayerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BerryBit.CAEmitterLayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04551B65200CA40400108513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2UQA5T58;
+				INFOPLIST_FILE = CAEmitterLayerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BerryBit.CAEmitterLayerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAEmitterLayerTest.app/CAEmitterLayerTest";
+			};
+			name = Debug;
+		};
+		04551B66200CA40400108513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2UQA5T58;
+				INFOPLIST_FILE = CAEmitterLayerTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BerryBit.CAEmitterLayerTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAEmitterLayerTest.app/CAEmitterLayerTest";
+			};
+			name = Release;
+		};
+		04551B68200CA40400108513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2UQA5T58;
+				INFOPLIST_FILE = CAEmitterLayerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BerryBit.CAEmitterLayerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAEmitterLayerTest;
+			};
+			name = Debug;
+		};
+		04551B69200CA40400108513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2R2UQA5T58;
+				INFOPLIST_FILE = CAEmitterLayerTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BerryBit.CAEmitterLayerTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CAEmitterLayerTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04551B34200CA40300108513 /* Build configuration list for PBXProject "CAEmitterLayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04551B5F200CA40400108513 /* Debug */,
+				04551B60200CA40400108513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04551B61200CA40400108513 /* Build configuration list for PBXNativeTarget "CAEmitterLayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04551B62200CA40400108513 /* Debug */,
+				04551B63200CA40400108513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04551B64200CA40400108513 /* Build configuration list for PBXNativeTarget "CAEmitterLayerTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04551B65200CA40400108513 /* Debug */,
+				04551B66200CA40400108513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04551B67200CA40400108513 /* Build configuration list for PBXNativeTarget "CAEmitterLayerTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04551B68200CA40400108513 /* Debug */,
+				04551B69200CA40400108513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04551B31200CA40300108513 /* Project object */;
+}
